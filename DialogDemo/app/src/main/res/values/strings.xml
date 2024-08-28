@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DialogDemo</string>
+    <string name="type_in_an_item">Type in an item</string>
+</resources>

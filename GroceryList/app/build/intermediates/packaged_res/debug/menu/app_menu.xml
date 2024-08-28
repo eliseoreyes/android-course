@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/showMaster"
+        android:orderInCategory="100"
+        android:title="@string/show_master">
+    </item>
+    <item android:id="@+id/showShopList"
+        android:orderInCategory="100"
+        android:title="@string/show_shopping_list">
+    </item>
+    <item android:id="@+id/addItem"
+        android:orderInCategory="100"
+        android:title="@string/add_item">
+    </item>
+    <item android:id="@+id/clearAll"
+        android:orderInCategory="100"
+        android:title="@string/clear_all">
+    </item>
+    <item android:id="@+id/delChecked"
+        android:orderInCategory="100"
+        android:title="@string/delete_checked">
+    </item>
+</menu>

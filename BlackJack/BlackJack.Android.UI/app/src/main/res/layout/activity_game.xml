@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme"
+    tools:context=".GameActivity">
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDeal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:padding="2dp"
+                android:text="@string/deal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnHit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:padding="2dp"
+                android:text="@string/hit" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnStand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:padding="2dp"
+                android:text="@string/stand" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:id="@+id/ivDealerCard4"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard3"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard2"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard1"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard0"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard11"
+                    android:contentDescription="@string/dealerCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/back_blue_1" />
+
+                <TextView
+                    android:id="@+id/tvDealerCardTotalText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/white"
+                    android:textSize="32dp"
+                    android:fontFamily="serif"
+                    android:text="" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDealerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="94dp"
+                android:textColor="@color/white"
+                android:textSize="32dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:text="@string/dealer" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:id="@+id/ivDealerCard10"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <LinearLayout
+                    android:id="@+id/resultsLayout"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvResultsText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:textColor="@color/red"
+                        android:textSize="32dp"
+                        android:textStyle="bold"
+                        android:text="" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivDealerCard9"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard8"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard7"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard6"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivDealerCard5"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/dealerCard"
+                    android:src="@drawable/back_blue_1" />
+            </LinearLayout>
+
+            <!-- Player cards layout-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard11"
+                    android:contentDescription="@string/playerCard"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/back_blue_1" />
+
+                <TextView
+                    android:id="@+id/tvPlayerCardTotalText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="right"
+                    android:textColor="@android:color/white"
+                    android:textSize="32dp"
+                    android:fontFamily="serif"
+                    android:text="" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard0"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard1"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard2"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard3"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard4"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard5"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingLeft="80dp"
+                android:text="@string/player"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="32dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard6"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard7"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard8"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard9"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+
+                <ImageView
+                    android:id="@+id/ivPlayerCard10"
+                    style="@style/cardImage"
+                    android:contentDescription="@string/playerCard"
+                    android:src="@drawable/back_blue_1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

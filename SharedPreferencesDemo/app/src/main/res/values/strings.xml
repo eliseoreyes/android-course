@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedPreferencesDemo</string>
+    <string name="change_the_settings">Change the settings.</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="navigate">Navigate</string>
+    <string name="set_the_value_on_the_other_screen">Set the value on the other screen</string>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Teams</string>
+    <string name="show_a_list_of_teams">Show a list of teams</string>
+    <string name="show_the_teams_map_page">Show the Teams map page</string>
+    <string name="show_the_settings_page">Show the Settings Page</string>
+    <string name="team_list">Team List</string>
+    <string name="team_settings">Team Settings</string>
+    <string name="team_map">Team Map</string>
+    <string name="favorite">Favorite</string>
+    <string name="team_image">Team Image</string>
+    <string name="toggleButton">OFF</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="show_a_list_of_the_teams">Show a list of the teams</string>
+    <string name="off">OFF</string>
+    <string name="city">City</string>
+    <string name="enter_city">Enter City</string>
+    <string name="cell_phone">Cell Phone</string>
+    <string name="rating">Rating</string>
+    <string name="rate">Rate</string>
+    <string name="isFavorite">Is Favorite</string>
+    <string name="sort_by">Sort By</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="delete">Delete</string>
+    <string name="newtext">New</string>
+    <string name="team_map_page">Team Map Page</string>
+    <string name="team_setting_page">Team Setting Page</string>
+    <string name="_100">100%</string>
+    <string name="sortby">Sort By</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="geo">Geo</string>
+</resources>

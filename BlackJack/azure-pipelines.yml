@@ -1,0 +1,58 @@
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
+- task: DotNetCoreCLI@2
+  displayName: Build BL.Models
+  inputs:
+    command: build
+    projects: 'BlackJack.BL.Models/BlackJack.BL.Models.csproj'
+    arguments: '--configuration Debug' 
+
+- task: DotNetCoreCLI@2
+  displayName: Build PL
+  inputs:
+    command: build
+    projects: 'BlackJack.PL/BlackJack.PL.csproj'
+    arguments: '--configuration Debug' 
+
+- task: DotNetCoreCLI@2
+  displayName: Test PL
+  inputs:
+    command: test
+    projects: 'BlackJack.PL.Test/BlackJack.PL.Test.csproj'
+    arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage"' 
+
+- task: DotNetCoreCLI@2
+  displayName: Build BL
+  inputs:
+    command: build
+    projects: 'BlackJack.BL/BlackJack.BL.csproj'
+    arguments: '--configuration Debug' 
+
+- task: DotNetCoreCLI@2
+  displayName: Test BL
+  inputs:
+    command: test
+    projects: 'BlackJack.BL.Test/BlackJack.BL.Test.csproj'
+    arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage"' 
+- task: PublishCodeCoverageResults@1  
+  displayName: 'Publish code coverage'  
+  inputs:  
+    codeCoverageTool: 'Cobertura'  
+    summaryFileLocation: '$(Agent.TempDirectory)/**/coverage.cobertura.xml' 
+     

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/charles_leclerc"
+          android:title="@string/charles_leclerc" />
+    <item android:id="@+id/lewis_hamilton"
+            android:title="@string/lewis_hamilton" />
+    <item android:id="@+id/max_verstappen"
+        android:title="@string/max_verstappen"/>
+</menu>

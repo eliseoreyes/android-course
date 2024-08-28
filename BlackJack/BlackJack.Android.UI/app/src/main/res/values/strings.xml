@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BlackJack.Android.UI</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome to BlackJack"</string>
+    <string name="enter_your_nickname">Enter your nickname</string>
+    <string name="nickname">Nickname</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="retype_your_password">Retype your password</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password_or_username">Forgot password or username?</string>
+    <string name="enter_your_username">   Enter your username</string>
+    <string name="username">Username</string>
+    <string name="hi_please_login">Hi,\nPlease Login</string>
+    <string name="deal">Deal</string>
+    <string name="hit">Hit</string>
+    <string name="stand">Stand</string>
+    <string name="dealer">Dealer</string>
+    <string name="player">Player</string>
+    <string name="playerCard">Player card</string>
+    <string name="dealerCard">Dealer card</string>
+    <string name="push">Push</string>
+    <string name="blackjack">Blackjack</string>
+    <string name="youWin">You win</string>
+    <string name="busted">Busted</string>
+    <string name="dealerWins">Dealer Wins</string>
+</resources>

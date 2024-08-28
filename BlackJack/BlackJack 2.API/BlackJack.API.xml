@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlackJack.API</name>
+    </assembly>
+    <members>
+        <member name="M:BlackJack.API.Controllers.CardController.Get">
+            <summary>
+            Return a list of cards
+            </summary>
+            <returns>List of cards</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.CardController.Get(System.Guid)">
+            <summary>
+            loads one card by id
+            </summary>
+            <param name="id"></param>
+            <returns>one card</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.CardController.Post(BlackJack.BL.Models.Card,System.Boolean)">
+            <summary>
+            Adds a card
+            </summary>
+            <param name="Card"></param>
+            <param name="rollback"></param>
+            <returns>row affected</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.CardController.Put(System.Guid,BlackJack.BL.Models.Card,System.Boolean)">
+            <summary>
+            updates card attributes
+            </summary>
+            <param name="id"></param>
+            <param name="Card"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.CardController.Delete(System.Guid,System.Boolean)">
+            <summary>
+            Deletes a card
+            </summary>
+            <param name="id"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.DeckController.Get">
+            <summary>
+            Gets a list of decks
+            </summary>
+            <returns>list of decks</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.DeckController.Get(System.Guid)">
+            <summary>
+            Gets one specific Deck
+            </summary>
+            <param name="id"></param>
+            <returns>one deck</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.DeckController.Post(BlackJack.BL.Models.Deck,System.Boolean)">
+            <summary>
+            Inserts a deck
+            </summary>
+            <param name="Deck"></param>
+            <param name="rollback"></param>
+            <returns>rows affected</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.DeckController.Put(System.Guid,BlackJack.BL.Models.Deck,System.Boolean)">
+            <summary>
+            Updates a deck
+            </summary>
+            <param name="id"></param>
+            <param name="Deck"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.DeckController.Delete(System.Guid,System.Boolean)">
+            <summary>
+            Deletes a deck
+            </summary>
+            <param name="id"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.GameController.Get">
+            <summary>
+            Loads all games
+            </summary>
+            <returns>list of games</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.GameController.Get(System.Guid)">
+            <summary>
+            Loads a specific game
+            </summary>
+            <param name="id"></param>
+            <returns>one game</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.GameController.Post(BlackJack.BL.Models.Game,System.Boolean)">
+            <summary>
+            Inserts a game
+            </summary>
+            <param name="Game"></param>
+            <param name="rollback"></param>
+            <returns>rows affected</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.GameController.Put(System.Guid,BlackJack.BL.Models.Game,System.Boolean)">
+            <summary>
+            updates a game
+            </summary>
+            <param name="id"></param>
+            <param name="Game"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.GameController.Delete(System.Guid,System.Boolean)">
+            <summary>
+            Deletes a game
+            </summary>
+            <param name="id"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.PlayerHandController.Get">
+            <summary>
+            Gets all players hands
+            </summary>
+            <returns>list of player hands</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.PlayerHandController.Get(System.Guid)">
+            <summary>
+            Gets one player's hand
+            </summary>
+            <param name="id"></param>
+            <returns>a single playerhand</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.PlayerHandController.Post(BlackJack.BL.Models.PlayerHand,System.Boolean)">
+            <summary>
+            inserts a card to playerhand
+            </summary>
+            <param name="PlayerHand"></param>
+            <param name="rollback"></param>
+            <returns>rows affected</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.PlayerHandController.Put(System.Guid,BlackJack.BL.Models.PlayerHand,System.Boolean)">
+            <summary>
+            updates a player's hand
+            </summary>
+            <param name="id"></param>
+            <param name="PlayerHand"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.PlayerHandController.Delete(System.Guid,System.Boolean)">
+            <summary>
+            deletes a card from player's hand
+            </summary>
+            <param name="id"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.UserController.Get">
+            <summary>
+            Gets all users
+            </summary>
+            <returns>list of users</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.UserController.Get(System.Guid)">
+            <summary>
+            gets one user
+            </summary>
+            <param name="id"></param>
+            <returns>user</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.UserController.Post(BlackJack.BL.Models.User,System.Boolean)">
+            <summary>
+            inserts a user
+            </summary>
+            <param name="User"></param>
+            <param name="rollback"></param>
+            <returns>rows affected</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.UserController.Put(System.Guid,BlackJack.BL.Models.User,System.Boolean)">
+            <summary>
+            updates a user's info
+            </summary>
+            <param name="id"></param>
+            <param name="User"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:BlackJack.API.Controllers.UserController.Delete(System.Guid,System.Boolean)">
+            <summary>
+            deletes a user
+            </summary>
+            <param name="id"></param>
+            <param name="rollback"></param>
+            <returns>true or false</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">F1 Gallery Drivers</string>
+    <string name="max_verstappen">Max Verstappen</string>
+    <string name="lewis_hamilton">Lewis Hamilton</string>
+    <string name="charles_leclerc">Charles Leclerc</string>
+    <string name="charles">Charles Marc Hervé Perceval Leclerc</string>
+    <string name="max">Max Emilian Verstappen</string>
+    <string name="lewis">Sir Lewis Carl Davidson Hamilton</string>
+</resources>

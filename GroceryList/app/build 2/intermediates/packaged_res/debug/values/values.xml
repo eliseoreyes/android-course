@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="cobaltblue">#0047AB</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="red">#D70040</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_item">Add Item</string>
+    <string name="app_name">Grocery List</string>
+    <string name="clear_all">Clear All</string>
+    <string name="delete_checked">Delete Checked</string>
+    <string name="show_master">Show Master List</string>
+    <string name="show_shopping_list">Show Shopping List</string>
+    <style name="Base.Theme.GroceryList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        
+        <item name="colorPrimary">@color/cobaltblue</item>
+    </style>
+    <style name="Theme.GroceryList" parent="Base.Theme.GroceryList"/>
+</resources>

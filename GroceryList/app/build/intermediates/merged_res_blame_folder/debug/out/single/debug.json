@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/drawable_rec_view_div.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/drawable/rec_view_div.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/layout_add_item.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/layout/add_item.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/layout_product_view.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/layout/product_view.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/drawable_baseline_check_circle_black_18.png.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/drawable/baseline_check_circle_black_18.png"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/drawable_app_gradient.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/drawable/app_gradient.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/menu_app_menu.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/menu/app_menu.xml"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.fvtc.grocerylist.app-merged_res-4:/xml_backup_rules.xml.flat",
+        "source": "edu.fvtc.grocerylist.app-main-6:/xml/backup_rules.xml"
+    }
+]
